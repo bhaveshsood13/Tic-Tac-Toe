@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+table#game td {
+    background-color: lightcoral;
+    color: purple;
+    height :150px;
+    width : 150px;
+    border : solid rebeccapurple 5px;
+    border-radius: 10px;
+    text-align : center;
+    font-weight: bolder;
+    font-size : 60pt;
+}
+
+table#game td:hover {
+    opacity: 95%;
+}
+a.aa{
+    position: fixed;
+    left: 1200px;
+    top : 330px;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.aa:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    font-weight: 500;
+}
